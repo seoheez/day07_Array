@@ -24,7 +24,7 @@ public class Ex04_List {
 			Object obj = arr.get(i);
 			String s = (String)obj;
 
-			String ss = (String)arr.get(i);
+			String ss = (String)arr.get(i);//합친 것.
 			System.out.println(s);
 		}
 	}

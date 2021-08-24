@@ -13,7 +13,7 @@ public class Quiz02 {
 		odd_even = input.next();
 		
 		
-		if(odd_even.equals("짝수")) {
+		if(odd_even.equals("짝수")) { //==로 비교하면 안되고 equals를 사용해야함.
 			for(int i=0; i<arr.length; i++) {
 				if(arr[i] % 2 == 0) {
 					System.out.println(odd_even + " : " + arr[i]);
@@ -32,7 +32,7 @@ public class Quiz02 {
 		for(int i=0; i<arr.length; i++) {
 			if(arr[i] % 2 == 0 & odd_even.equals("짝수")) {
 				System.out.println(odd_even + " : " + arr[i]);
-			}else if(arr[i] % 2 == 1 && odd_even.equals("홀수")) {
+			}else if(arr[i] % 2 == 1 && odd_even.equals("홀수")) { //else(x)
 				System.out.println(odd_even+ " : " + arr[i]);
 			}
 				

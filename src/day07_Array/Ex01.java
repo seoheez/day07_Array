@@ -31,7 +31,7 @@ public class Ex01 {
 			System.out.println(arr[i]);
 		}
 		//int arr01 [] = new int[] {10,20,30,40,50} //같음
-		int arr01[] = new int[] {10,20,30,40,50};
+		int arr01[] = {10,20,30,40,50};
 		for(int i=0; i < arr01.length; i++) {
 			System.out.println(arr01[i]);
 		}
